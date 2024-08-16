@@ -35,11 +35,11 @@ function typewriter() {
 }
 
 function handleClick() {
-    typewriter();
     var x = document.getElementById("Voice");
     x.play();
+    typewriter();
     var y = document.getElementById("Chill");
-    y.volume = 0.3;
+    y.volume = 0.1;
     y.play();
     var z = document.getElementById("lockScreen");
     z.style.display = "block";
