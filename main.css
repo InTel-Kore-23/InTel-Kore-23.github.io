@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'iCiel Pony';
     src: url('iCielPony.eot');
@@ -26,7 +27,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: "iCiel Pony", sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
 }
 .container {
   width: 100%;
@@ -73,17 +74,10 @@ p.demos {
   width: 100%;
   text-align: center;
   color: transparent;
-  -webkit-animation: blurFadeInOut 3s ease-in backwards;
-  -moz-animation: blurFadeInOut 3s ease-in backwards;
-  -ms-animation: blurFadeInOut 3s ease-in backwards;
-  animation: blurFadeInOut 3s ease-in backwards;
-}
-
-h2 {
-  -webkit-animation: breathe 1.5s infinite ease-in-out;
-  -moz-animation: breathe 1.5s infinite ease-in-out;
-  -ms-animation: breathe 1.5s infinite ease-in-out;
-  animation: breathe 1.5s infinite ease-in-out;
+  -webkit-animation: blurFadeInOut 3s ease-in backwards, breathe 2s infinite ease-in-out;
+  -moz-animation: blurFadeInOut 3s ease-in backwards, breathe 2s infinite ease-in-out;
+  -ms-animation: blurFadeInOut 3s ease-in backwards, breathe 2s infinite ease-in-out;
+  animation: blurFadeInOut 3s ease-in backwards, breathe 2s infinite ease-in-out;
 }
 
 @keyframes breathe {
@@ -103,7 +97,7 @@ h2 {
   -moz-animation-delay: 0s;
   -ms-animation-delay: 0s;
   animation-delay: 0s;
-  animation-name: Frame-1;
+  animation-name: Frame-1, breathe;
 }
 @keyframes Frame-1 {
   0% {
@@ -132,7 +126,7 @@ h2 {
   -moz-animation-delay: 3s;
   -ms-animation-delay: 3s;
   animation-delay: 3s;
-  animation-name: Frame-2;
+  animation-name: Frame-2, breathe;
 }
 @keyframes Frame-3 {
   150% {
@@ -152,7 +146,7 @@ h2 {
   -moz-animation-delay: 6s;
   -ms-animation-delay: 6s;
   animation-delay: 6s;
-  animation-name: Frame-3;
+  animation-name: Frame-3, breathe;
 }
 @keyframes Frame-4 {
   150% {
@@ -171,7 +165,7 @@ h2 {
   -moz-animation-delay: 9s;
   -ms-animation-delay: 9s;
   animation-delay: 9s;
-  animation-name: Frame-4;
+  animation-name: Frame-4, breathe;
 }
 
 
@@ -182,7 +176,7 @@ h2 {
   -moz-animation-delay: 12s;
   -ms-animation-delay: 12s;
   animation-delay: 12s;
-  animation-name: Frame-5;
+  animation-name: Frame-5, breathe;
 }
 
 @keyframes Frame-5 {
@@ -203,7 +197,7 @@ h2 {
   -moz-animation-delay: 15s;
   -ms-animation-delay: 15s;
   animation-delay: 15s;
-  animation-name: Frame-6;
+  animation-name: Frame-6, breathe;
 }
 
 @keyframes Frame-6 {
@@ -224,7 +218,7 @@ h2 {
   -moz-animation-delay: 18s;
   -ms-animation-delay: 18s;
   animation-delay: 18s;
-  animation-name: Frame-7;
+  animation-name: Frame-7, breathe;
 }
 
 @keyframes Frame-7 {
@@ -245,7 +239,7 @@ h2 {
   -moz-animation-delay: 21s;
   -ms-animation-delay: 21s;
   animation-delay: 21s;
-  animation-name: Frame-8;
+  animation-name: Frame-8, breathe;
 }
 
 @keyframes Frame-8 {
@@ -266,7 +260,7 @@ h2 {
   -moz-animation-delay: 24s;
   -ms-animation-delay: 24s;
   animation-delay: 24s;
-  animation-name: Frame-9;
+  animation-name: Frame-9, breathe;
 }
 
 @keyframes Frame-9 {
@@ -287,7 +281,7 @@ h2 {
   -moz-animation-delay: 27s;
   -ms-animation-delay: 27s;
   animation-delay: 27s;
-  animation-name: Frame-10;
+  animation-name: Frame-10, breathe;
 }
 
 @keyframes Frame-10 {
