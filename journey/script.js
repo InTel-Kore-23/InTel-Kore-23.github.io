@@ -42,7 +42,7 @@ function handleClick() {
     y.volume = 0.3;
     y.play();
     var z = document.getElementById("lockScreen");
-    z.style.display = "";
+    z.style.display = "block";
     const element = document.getElementById("BUTTON");
     element.remove();
 }
