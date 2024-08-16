@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'MTD Shopping Script';
+    src: url('MTD.eot');
+    src: url('MTD.eot?#iefix') format('embedded-opentype'),
+        url('MTD.woff2') format('woff2'),
+        url('MTD.woff') format('woff'),
+        url('MTD.ttf') format('truetype'),
+        url('MTD.svg#MTD') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  font-family: 'MTD Shopping Script', cursive; 
+  font-size:30px; 
+  margin: 10px 50px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+  background-color: black;
+  color: #64bcda;
+}
