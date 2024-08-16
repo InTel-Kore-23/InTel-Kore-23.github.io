@@ -79,6 +79,18 @@ p.demos {
   animation: blurFadeInOut 3s ease-in backwards, breathe 1.5s infinite ease-in-out;
 }
 
+@keyframes breathe {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .sp-container h2.frame-1 {
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
