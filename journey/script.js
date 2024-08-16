@@ -10,6 +10,7 @@ function typewriter() {
     sContents = ' ';
     iRow = Math.max(0, iIndex - iScrollAt);
     var destination = document.getElementById("typedtext");
+    var scrollTarget = document.getElementById("scrollFit");
 
     if (destination.scrollHeight - destination.scrollTop <= destination.clientHeight) {
         destination.innerHTML = '';
@@ -20,7 +21,7 @@ function typewriter() {
     }
     destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
 
-    destination.scrollTop = destination.scrollHeight;
+    scrollTarget.scrollIntoView({ behavior: "smooth" });
     
     if (iTextPos++ == aText[iIndex].length) {
         iTextPos = 0;
