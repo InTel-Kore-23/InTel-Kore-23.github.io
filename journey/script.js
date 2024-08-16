@@ -47,6 +47,6 @@ function handleClick() {
     typewriter();
     var x = document.getElementById("Voice");
     x.play();
-    const button = document.querySelector('button');
-    button.style.display = 'none';
+    const element = document.getElementById("BUTTON");
+    element.remove();
 }
