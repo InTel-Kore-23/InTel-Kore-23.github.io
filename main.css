@@ -118,11 +118,11 @@ p.demos {
 @keyframes Frame-3 {
   150% {
     color: #64bcda;
-    font-size: 27px;
+    /* font-size: 27px; */
   }
   50% {
     color: #64bcda;
-    font-size: 27px;
+    /* font-size: 27px; */
   }
   100% {
     color: transparent;
@@ -537,7 +537,7 @@ canvas {
     transform: scale(1);
   }
   60% {
-          transform: scale(0.95);
+          transform: scale(0.986);
       }
   100% {
     transform: scale(1);
