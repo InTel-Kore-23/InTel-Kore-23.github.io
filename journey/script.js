@@ -24,7 +24,7 @@ function typewriter() {
         iTextPos = 0;
         iIndex++;
         if (iIndex != aText.length) {
-            setTimeout(typewriter, 500);
+            setTimeout(typewriter, 100);
         }
     } else {
         setTimeout(typewriter, iSpeed);
