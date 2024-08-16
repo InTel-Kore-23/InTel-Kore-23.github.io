@@ -39,6 +39,7 @@ function handleClick() {
     var x = document.getElementById("Voice");
     x.play();
     var y = document.getElementById("Chill");
+    y.volume = 0.3;
     y.play();
     var z = document.getElementById("lockScreen");
     z.style.display = "";
