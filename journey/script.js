@@ -21,7 +21,7 @@ function typewriter() {
     }
     destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
 
-    scrollTarget.scrollIntoView({ behavior: "smooth" });
+    //scrollTarget.scrollIntoView({ behavior: "smooth" });
     
     if (iTextPos++ == aText[iIndex].length) {
         iTextPos = 0;
