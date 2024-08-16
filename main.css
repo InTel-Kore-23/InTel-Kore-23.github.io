@@ -73,10 +73,17 @@ p.demos {
   width: 100%;
   text-align: center;
   color: transparent;
-  -webkit-animation: blurFadeInOut 3s ease-in backwards, breathe 1.5s infinite ease-in-out;
-  -moz-animation: blurFadeInOut 3s ease-in backwards, breathe 1.5s infinite ease-in-out;
-  -ms-animation: blurFadeInOut 3s ease-in backwards, breathe 1.5s infinite ease-in-out;
-  animation: blurFadeInOut 3s ease-in backwards, breathe 1.5s infinite ease-in-out;
+  -webkit-animation: blurFadeInOut 3s ease-in backwards;
+  -moz-animation: blurFadeInOut 3s ease-in backwards;
+  -ms-animation: blurFadeInOut 3s ease-in backwards;
+  animation: blurFadeInOut 3s ease-in backwards;
+}
+
+h2 {
+  -webkit-animation: breathe 1.5s infinite ease-in-out;
+  -moz-animation: breathe 1.5s infinite ease-in-out;
+  -ms-animation: breathe 1.5s infinite ease-in-out;
+  animation: breathe 1.5s infinite ease-in-out;
 }
 
 @keyframes breathe {
