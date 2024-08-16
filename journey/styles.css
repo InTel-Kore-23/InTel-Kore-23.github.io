@@ -17,14 +17,7 @@ body {
   margin: 10px 50px; 
   letter-spacing: 6px;
   font-weight: bold;
-  background-color: black;
-  color: #64bcda;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-   background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
 }
 
 @function random_range($min, $max) {
