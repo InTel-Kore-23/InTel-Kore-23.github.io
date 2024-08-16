@@ -21,7 +21,7 @@ function typewriter() {
     }
     destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
 
-    //scrollTarget.scrollIntoView({ behavior: "smooth" });
+    scrollTarget.scrollIntoView({ behavior: "smooth" });
     
     if (iTextPos++ == aText[iIndex].length) {
         iTextPos = 0;
@@ -41,8 +41,6 @@ function handleClick() {
     var y = document.getElementById("Chill");
     y.volume = 0.1;
     y.play();
-    var z = document.getElementById("lockScreen");
-    z.style.display = "block";
     const element = document.getElementById("BUTTON");
     element.remove();
 }
