@@ -41,8 +41,8 @@ function handleClick() {
     var y = document.getElementById("Chill");
     y.volume = 0.1;
     y.play();
-    //var z = document.getElementById("lockScreen");
-    //z.style.display = "block";
+    var z = document.getElementById("lockScreen");
+    z.style.display = "block";
     const element = document.getElementById("BUTTON");
     element.remove();
 }
