@@ -73,10 +73,10 @@ p.demos {
   width: 100%;
   text-align: center;
   color: transparent;
-  -webkit-animation: blurFadeInOut 3s ease-in backwards;
-  -moz-animation: blurFadeInOut 3s ease-in backwards;
-  -ms-animation: blurFadeInOut 3s ease-in backwards;
-  animation: blurFadeInOut 3s ease-in backwards;
+  -webkit-animation: blurFadeInOut 3s ease-in backwards, breathe 3s infinite ease-in-out;
+  -moz-animation: blurFadeInOut 3s ease-in backwards, breathe 3s infinite ease-in-out;
+  -ms-animation: blurFadeInOut 3s ease-in backwards, breathe 3s infinite ease-in-out;
+  animation: blurFadeInOut 3s ease-in backwards, breathe 3s infinite ease-in-out;
 }
 
 .sp-container h2.frame-1 {
