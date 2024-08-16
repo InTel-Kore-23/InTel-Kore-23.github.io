@@ -18,6 +18,8 @@ body {
   letter-spacing: 6px;
   font-weight: bold;
   color: white;
+  position: relative;
+  z-index: 0;
 }
 
 .context {
