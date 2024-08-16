@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Love Letters';
+  src: url('Love Letters.ttf');
+}
+
 html,
 body {
   overflow: hidden;
@@ -12,7 +17,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: "Barlow", sans-serif;
+  font-family: "Love Letters", sans-serif;
 }
 .container {
   width: 100%;
