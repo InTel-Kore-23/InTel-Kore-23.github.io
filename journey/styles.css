@@ -1,18 +1,18 @@
 @font-face {
-    font-family: 'MTD Shopping Script';
-    src: url('MTD.eot');
-    src: url('MTD.eot?#iefix') format('embedded-opentype'),
-        url('MTD.woff2') format('woff2'),
-        url('MTD.woff') format('woff'),
-        url('MTD.ttf') format('truetype'),
-        url('MTD.svg#MTD') format('svg');
+    font-family: 'iCiel Pony';
+    src: url('../iCielPony.eot');
+    src: url('../iCielPony.eot?#iefix') format('embedded-opentype'),
+        url('../Pony.ttf')  format('truetype'),
+        url('../iCielPony.woff2') format('woff2'),
+        url('../iCielPony.woff') format('woff'),
+        url('../iCielPony.svg#iCielPony') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 body {
-  font-family: 'Waiting for the Sunrise', cursive; 
+  font-family: 'iCiel Pony', cursive; 
   font-size:30px; 
   margin: 10px 50px; 
   letter-spacing: 6px;
