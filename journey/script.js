@@ -20,6 +20,8 @@ function typewriter() {
     }
     destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
 
+    destination.scrollTop = destination.scrollHeight;
+    
     if (iTextPos++ == aText[iIndex].length) {
         iTextPos = 0;
         iIndex++;
