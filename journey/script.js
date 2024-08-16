@@ -35,9 +35,9 @@ function typewriter() {
 }
 
 function handleClick() {
+    typewriter();
     var x = document.getElementById("Voice");
     x.play();
-    typewriter();
     var y = document.getElementById("Chill");
     y.volume = 0.1;
     y.play();
