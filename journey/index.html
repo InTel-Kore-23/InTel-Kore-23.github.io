@@ -12,6 +12,29 @@
   <audio id="Voice">
     <source src="voice.wav" type="audio/wav">
   </audio>
+  <div id="BUTTON" style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+        <button 
+            onclick="handleClick()"
+            style="
+                background-color: #3498db;
+                color: white;
+                border: none;
+                padding: 15px 30px;
+                font-size: 16px;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: background-color 0.3s ease, transform 0.3s ease;
+            "
+            onmouseover="this.style.backgroundColor='#2980b9'" 
+            onmouseout="this.style.backgroundColor='#3498db'" 
+            onmousedown="this.style.transform='scale(0.95)'" 
+            onmouseup="this.style.transform='scale(1)'">
+            Nhấn vào đây để tìm hiểu ITK23!!
+        </button>
+  </div>
+  <div id="typedtext" style="height: 400px;"></div>
+  <div id="scrollFit"></div>
+  <script src="script.js"></script>
   <div class="stars">
     <div class="star"></div>
     <div class="star"></div>
@@ -64,27 +87,4 @@
     <div class="star"></div>
     <div class="star"></div>
   </div>
-  <div id="BUTTON" style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
-        <button 
-            onclick="handleClick()"
-            style="
-                background-color: #3498db;
-                color: white;
-                border: none;
-                padding: 15px 30px;
-                font-size: 16px;
-                border-radius: 8px;
-                cursor: pointer;
-                transition: background-color 0.3s ease, transform 0.3s ease;
-            "
-            onmouseover="this.style.backgroundColor='#2980b9'" 
-            onmouseout="this.style.backgroundColor='#3498db'" 
-            onmousedown="this.style.transform='scale(0.95)'" 
-            onmouseup="this.style.transform='scale(1)'">
-            Nhấn vào đây để tìm hiểu ITK23!!
-        </button>
-  </div>
-  <div id="typedtext" style="height: 400px;"></div>
-  <div id="scrollFit"></div>
-  <script src="script.js"></script>
 </body>
