@@ -13,6 +13,10 @@
 
 body {
   font-family: 'MTD Shopping Script', cursive; 
+  font-size:30px; 
+  margin: 10px 50px; 
+  letter-spacing: 6px;
+  font-weight: bold;
   background-color: black;
   color: #64bcda;
 }
