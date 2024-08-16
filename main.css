@@ -26,7 +26,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: "iCiel Pony", sans-serif;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 .container {
   width: 100%;
@@ -73,10 +73,10 @@ p.demos {
   width: 100%;
   text-align: center;
   color: transparent;
-  -webkit-animation: blurFadeInOut 3s ease-in backwards, breathe 3s infinite ease-in-out;
-  -moz-animation: blurFadeInOut 3s ease-in backwards, breathe 3s infinite ease-in-out;
-  -ms-animation: blurFadeInOut 3s ease-in backwards, breathe 3s infinite ease-in-out;
-  animation: blurFadeInOut 3s ease-in backwards, breathe 3s infinite ease-in-out;
+  -webkit-animation: blurFadeInOut 3s ease-in backwards, breathe 1.5s infinite ease-in-out;
+  -moz-animation: blurFadeInOut 3s ease-in backwards, breathe 1.5s infinite ease-in-out;
+  -ms-animation: blurFadeInOut 3s ease-in backwards, breathe 1.5s infinite ease-in-out;
+  animation: blurFadeInOut 3s ease-in backwards, breathe 1.5s infinite ease-in-out;
 }
 
 .sp-container h2.frame-1 {
