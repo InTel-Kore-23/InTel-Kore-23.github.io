@@ -11,7 +11,7 @@ var aText = [
     "Chúng mình rất mong được các bạn dõi theo và cùng đồng hành trong chuyến bay đầy ý nghĩa này.", 
     "HÃY NHẤN VÀO ĐÂY ĐỂ NHẬN LẤY CHIẾC VÉ ĐỒNG HÀNH CÙNG ITK23 NHÉ!!"
 ];
-var iSpeed = 100;
+var iSpeed = 60;
 var iIndex = 0;
 var iScrollAt = 20;
 var iTextPos = 0;
