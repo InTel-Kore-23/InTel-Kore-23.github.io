@@ -38,8 +38,10 @@ function handleClick() {
     typewriter();
     var x = document.getElementById("Voice");
     x.play();
-    var y = document.getElementById("lockScreen");
-    y.style.removeProperty("display");
+    var y = document.getElementById("Chill");
+    y.play();
+    var z = document.getElementById("lockScreen");
+    z.style.display = "";
     const element = document.getElementById("BUTTON");
     element.remove();
 }
